@@ -36,23 +36,23 @@ decision_tree_model.pkl
 gradient_boosting_model.pkl
 random_forest_model.pkl
 
-##Usage
+## Usage
 Run the Flask application:
 python app.py
 Access the application:
 Open your web browser and go to http://127.0.0.1:5000/.
 
-##Test the application:
+## Test the application:
 Enter a news article in the text area.
 Click the "Check" button to see predictions from all four models.
 
-##Project Structure
+## Project Structure
 app.py: The main Flask application file.
 templates/index.html: The HTML template for the web interface.
 static/: Directory for static files (e.g., CSS, JavaScript).
 requirements.txt: List of Python dependencies.
 
-##How It Works
+## How It Works
 Text Input: Users input a news article into the web form.
 Preprocessing: The text is preprocessed to remove noise and standardize the input.
 Vectorization: The preprocessed text is transformed into numerical features using a pre-trained vectorizer.
